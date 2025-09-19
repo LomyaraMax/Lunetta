@@ -1,0 +1,5 @@
+.header { padding: 5px 0; }
+
+.header .logo { background-color: var(--color-black); color: var(--color-white); padding: 0px 5px; font-size: 1.2rem; }
+
+.footer { background-color: var(--color-black); color: var(--color-white); padding: 5px 0; }
