@@ -1,0 +1,28 @@
+<section class="cart-section">
+  <div class="cart-header">
+    <h2>Ваша корзина</h2>
+    <button class="cart-close-btn">✖</button>
+  </div>
+
+  <div id="cart-items" class="cart-items"></div>
+
+  <div class="cart-total">
+    Общая сумма: <span id="cart-total-value">0</span> грн
+  </div>
+
+  <form id="order-form" action="https://formspree.io/f/xrbqbjkp" method="POST">
+    <label>Фамилия и Имя:
+      <input type="text" name="name" class="order-field" required>
+    </label>
+    <label>Телефон:
+      <input type="tel" name="phone" class="order-field" required>
+    </label>
+    <label>Город:
+      <input type="text" name="city" class="order-field" required>
+    </label>
+    <label>Номер склада:
+      <input type="text" name="warehouse" class="order-field" required>
+    </label>
+    <button type="submit" id="submit-order">Отправить заказ</button>
+  </form>
+</section>
