@@ -1,4 +1,0 @@
-@media (max-width: 768px) { .catigories_item img { height: 180px; }
-  .product { -webkit-box-flex: 0; -ms-flex: 0 0 160px; flex: 0 0 160px; min-height: auto; }
-  .product .product-img { height: 140px; }
-  .cart-section { right: 50% !important; -webkit-transform: translateX(50%); -ms-transform: translateX(50%); transform: translateX(50%); } }
