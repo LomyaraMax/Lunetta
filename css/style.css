@@ -101,7 +101,7 @@ body { font-family: 'Inter', sans-serif; background-color: var(--color-bg); marg
 
 .wrapper .main .main_container .product .add-to-cart:hover { -webkit-transform: translateY(-2px); -ms-transform: translateY(-2px); transform: translateY(-2px); -webkit-filter: brightness(0.95); filter: brightness(0.95); }
 
-.cart-section { position: fixed; top: 0px; right: 20px; width: 380px; max-width: 95%; background: #fff; border-radius: 12px; -webkit-box-shadow: 0 8px 20px rgba(17, 17, 17, 0.1); box-shadow: 0 8px 20px rgba(17, 17, 17, 0.1); padding: 20px; display: none; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 15px; z-index: 1000; font-family: sans-serif; }
+.cart-section { position: fixed; top: 2px; right: 20px; width: 380px; max-width: 95%; background: #fff; border-radius: 12px; -webkit-box-shadow: 0 8px 20px rgba(17, 17, 17, 0.1); box-shadow: 0 8px 20px rgba(17, 17, 17, 0.1); padding: 20px; display: none; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 15px; z-index: 1000; font-family: sans-serif; }
 
 .cart-section .cart-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
